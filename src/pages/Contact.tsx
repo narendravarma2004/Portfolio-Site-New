@@ -66,7 +66,7 @@ export const Contact: React.FC = () => {
                 <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
-                  <p className="text-gray-600 dark:text-gray-300">+91 9876543210</p>
+                  <p className="text-gray-600 dark:text-gray-300">+91 6301854870</p>
                 </div>
               </div>
               
@@ -88,9 +88,7 @@ export const Contact: React.FC = () => {
                 <a href="https://www.linkedin.com/in/kamparajunarendravarma/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
-                  <Twitter className="w-6 h-6" />
-                </a>
+                
               </div>
             </div>
           </div>

@@ -13,18 +13,19 @@ export const Home: React.FC = () => {
     >
       <div className="text-center">
         {/* Profile Image */}
-        <div className="relative w-56 h-56 mx-auto mb-8">
-          <img
-            src="https://i.postimg.cc/y6j0ckGj/IMG-20230518-WA0011.jpg"
-            alt="Narendra"
-            className="rounded-full object-contain w-full h-full shadow-2xl p-2 bg-white"
-          />
-          <motion.div
-            className="absolute inset-0 border-4 border-blue-500 rounded-full"
-            animate={{ rotate: 360 }}
-            transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
-          />
-        </div>
+<div className="relative w-56 h-56 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl p-1 bg-white">
+  <img
+    src="https://i.postimg.cc/y6j0ckGj/IMG-20230518-WA0011.jpg"
+    alt="Narendra"
+    className="w-full h-full object-cover object-top rounded-full"
+  />
+  <motion.div
+    className="absolute inset-0 border-4 border-blue-500 rounded-full"
+    animate={{ rotate: 360 }}
+    transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
+  />
+</div>
+
 
         {/* Name */}
         <motion.h1
@@ -61,7 +62,7 @@ export const Home: React.FC = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/1v3sYeESvxma1PKWk_iGjS-qp6S6BQzEn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1fMyQWfJ8b2dj-wQXU6x0o6RKcBXvhZyk/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-green-600 text-white rounded-full flex items-center gap-2 hover:bg-green-700 transition-colors"
@@ -90,9 +91,7 @@ export const Home: React.FC = () => {
           <a href="https://www.linkedin.com/in/kamparajunarendravarma/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
-            <Twitter className="w-6 h-6" />
-          </a>
+          
         </motion.div>
       </div>
     </motion.div>

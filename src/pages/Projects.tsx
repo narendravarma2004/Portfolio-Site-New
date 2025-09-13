@@ -38,14 +38,14 @@ const projects = [
     title: 'BumpStrong - Stay Active and Prepare for Motherhood',
     description: 'BumpStrong is a mobile app designed to help expecting mothers stay active, healthy, and prepared for motherhood with guided exercises and wellness tips.',
     category: 'Application',
-    image: 'https://i.postimg.cc/rw9ntnMZ/Bump-Strong-Name.png',
+    image: 'https://i.postimg.cc/1zQsxCzV/feature-image.jpg',
     technologies: ['Android Studio', 'Java', 'XML', 'MySQL'],
     github: 'https://github.com',
     demo: 'https://demo.com'
   }
 ];
 
-const categories = ['All', 'AI', 'Web Development', 'IoT','Application'];
+const categories = ['All', 'AI', 'Application','Web Development', 'IoT',];
 
 export const Projects: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
