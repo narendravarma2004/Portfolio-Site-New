@@ -20,8 +20,8 @@ const projects = [
     category: 'Web Development',
     image: 'https://cdn.pixabay.com/photo/2024/01/26/21/41/ai-generated-8534773_1280.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
+    github: 'https://github.com/narendravarma2004/cakeiris-project.git',
+    demo: 'https://cakeirisstore.netlify.app/'
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const projects = [
     category: 'Application',
     image: 'https://i.postimg.cc/1zQsxCzV/feature-image.jpg',
     technologies: ['Android Studio', 'Java', 'XML', 'MySQL'],
-    github: 'https://github.com',
+    github: 'https://github.com/narendravarma2004/BumpStrong.git',
     demo: 'https://demo.com'
   }
 ];
